@@ -1,0 +1,1 @@
+﻿dotnet ef --project ../ --startup-project ../../StockTicker.Api migrations remove
