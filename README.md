@@ -1,8 +1,8 @@
 # Stock Ticker API
 
 
-- CQRS pattern configured in the Application Layer (using Mediatr) would have been a better way to implement. 
-- A generic repository with the specification pattern would have been cleaner are more extensible, this is a new pattern for me and due to time limits did not implement.
+- CQRS pattern configured in the Application Layer (using Mediatr) would have been a better way to implement. Did not implement due to speed.
+- A generic repository with the specification pattern would have been cleaner are more extensible. The specification pattern is new to me and due to time limits did not implement.
 - Mapping was done manually for speed rather than use AutoMapper.
 - Stock and TradeTransaction as one to many entity would be better in terms of database optimisation. For speed just used the TradeTransaction entity and took the penalty on redundancy.
 
